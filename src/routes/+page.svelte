@@ -30,4 +30,5 @@
 	{/each}
 </form>
 
+<!-- svelte-ignore a11y-distracting-elements -->
 <marquee>I'm the best tag ever</marquee>
