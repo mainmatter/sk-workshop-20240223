@@ -1,5 +1,10 @@
 <script>
 	/**
+	 * @type {string}
+	 */
+	export let id;
+
+	/**
 	 * @type {boolean}
 	 */
 	export let completed;
@@ -10,9 +15,9 @@
 	export let content;
 </script>
 
-<button on:click class:completed>
+<button value={id} name="id" class:completed>
 	{content}
-</button>
+</button><a href="/todo/{id}">Edit</a>
 
 <style>
 	button {
